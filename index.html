@@ -4,19 +4,21 @@
         <title>Google</title>
         <style>
             #full_page{display:flex;flex-direction:column;height:100vh}
-            #banner{display: flex; position: relative;top: 50px;height: 100px; width: 100vw;}
-            #clickables{display: flex; position: relative; right: 50px; width: 200px;}
+            #banner{display: flex; position: relative;top: 20px;height: 100px; width: 100vw; justify-content: right;}
+            #clickables{display: flex; position: relative; width: 300px; font-size: larger;}
+            .top-right-button{padding-right: 30px; }
+            a {color: black; font-weight: bold; text-decoration: none;}
         </style>
     </head>
     <body>
         <div id="full page">
             <div id="banner">
                 <div id="clickables">
-                    <div id="images">
-                        <a href="https://www.google.com/imghp">Images</a>
+                    <div id="images" class="top-right-button">
+                        <a href="Images.html">Images</a>
                     </div>
-                    <div id="advance">
-                        <a href="https://www.google.com/advanced_search"> Advanced Search</a>
+                    <div id="advance" class="top-right-button">
+                        <a href="advanced_search.html">Advanced Search</a>
                     </div>
                 </div>
             </div>
